@@ -1,0 +1,26 @@
+{
+  "name": "full-backend-zero",
+  "version": "1.0.0",
+  "description": "Hung Nghiem backend zero",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hunght4/udemy-fullstack-backend-zero.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Hung Nghiem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hunght4/udemy-fullstack-backend-zero/issues"
+  },
+  "homepage": "https://github.com/Hunght4/udemy-fullstack-backend-zero#readme",
+  "dependencies": {
+    "express": "4.18.2"
+  }
+}
