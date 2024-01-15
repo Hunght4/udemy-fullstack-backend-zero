@@ -1,8 +1,9 @@
 const express = require('express')
+const {getHomepage, hungNghiem} = require('../controllers/homeController')
 const router = express.Router();
 
-router.get('/', (req, res) => {
-    res.render('sample.ejs')
-})
+router.get('/', getHomepage)
+
+router.get('/hungNghiem', hungNghiem)
 
 module.exports = router;
